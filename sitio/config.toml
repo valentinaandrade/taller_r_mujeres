@@ -9,6 +9,8 @@ paginate = 5
   showMenuItems = 4
   fullWidthTheme = true
   centerTheme = true
+  enableGitInfo = true
+  updatedDatePrefix = "Actualizado"
 
 [languages]
   [languages.en]
@@ -19,6 +21,9 @@ paginate = 5
     menuMore = "Ver más"
     readMore = "Leer más"
     readOtherPosts = "Leer otros posts"
+    missingContentMessage = "Página no encontrada"
+    missingBackButtonLabel = "Volver al inicio"
+
 
     [languages.en.params.logo]
       logoText = "R por y para mujeres"

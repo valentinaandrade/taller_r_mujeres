@@ -1,6 +1,6 @@
 ---
 author: Valentina y Monica
-cover: hello.jpg
+cover: 
 date: "2021-03-18"
 title: Antes de partir
 description: ¿Cómo instalar R? ¿Qué es RStudio Cloud?
@@ -25,6 +25,13 @@ RStudio Cloud es una plataforma que permite utilizar R en una nube (`cloud compu
 - [Tutorial de RStudio Cloud](https://www.dropbox.com/s/m77wauwyxk2xn7y/capsula01.mp4?dl=0) por Valentina Andrade
 
 
-```r
-Hel¡Iniciemos!`
+  <iframe src="https://www.youtube-nocookie.com/embed/ZJthWmvUzzc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="YouTube Video"></iframe>
 
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe src="https://www.youtube-nocookie.com/embed/ZJthWmvUzzc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="YouTube Video"></iframe>
+  </div>
+
+
+```r
+¡Iniciemos!
+```

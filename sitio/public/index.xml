@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Material de interés</title>
+      <link>/search/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/search/</guid>
+      <description> Agregar material de interes  </description>
+    </item>
+    
+    <item>
       <title>Antes de partir</title>
       <link>/instalar-r/</link>
       <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
@@ -18,16 +27,7 @@
   Instalar RStudio
   Tutorial de instalación Agradecemos a Julio Iturra por facilitar el material
   RStudio Cloud 💻🌥 RStudio Cloud es una plataforma que permite utilizar R en una nube (cloud computing).
- Tutorial de RStudio Cloud por Valentina Andrade  Hel¡Iniciemos!</description>
-    </item>
-    
-    <item>
-      <title>Material de interés</title>
-      <link>/search/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/search/</guid>
-      <description> Agregar material de interes  </description>
+  Tutorial de RStudio Cloud por Valentina Andrade</description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@
     </item>
     
     <item>
-      <title>Bievenidas a todas 👩</title>
+      <title>Bievenidas a todas 👩 - Taller de R por y para mujeres</title>
       <link>/post/about/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       

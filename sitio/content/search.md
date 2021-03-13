@@ -1,6 +1,7 @@
 ---
 author: Monica y Valentina
-date: "2021-03-18"
+cover: img/collaborate.png
+date: "2021-03-19"
 title: Material de interés
 ---
 
