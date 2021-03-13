@@ -1,0 +1,43 @@
+baseurl = "https://example.com/"
+languageCode = "en-us"
+theme = "hugo-theme-terminal"
+paginate = 5
+
+[params]
+  contentTypeName = "post"
+  themeColor = "pink"
+  showMenuItems = 4
+  fullWidthTheme = true
+  centerTheme = true
+
+[languages]
+  [languages.en]
+    title = "R por y para mujeres"
+    subtitle = "Taller COES-2021"
+    keywords = ""
+    copyright = ""
+    menuMore = "Ver más"
+    readMore = "Leer más"
+    readOtherPosts = "Leer otros posts"
+
+    [languages.en.params.logo]
+      logoText = "R por y para mujeres"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "0. Sobre el taller"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "instalar-R"
+        name = "1. Antes de partir"
+        url = "/instalar-R"
+      [[languages.en.menu.main]]
+        identifier = "code"
+        name = "2. Material del taller"
+        url = "/code"
+      [[languages.en.menu.main]]
+        identifier = "search"
+        name = "3. ¿Cómo seguir aprendiendo?"
+        url = "/search"
