@@ -1,21 +1,21 @@
-# Taller de R por y para mujeres
+---
+author: Monica y Valentina
+cover: imagen0.png
+date: "2019-01-25"
+title: Bievenidas a todas 👩
+---
 
-## Bievenidas a todas 👩
+# Bievenidas a todas 👩
 
-Queremos darle la bienvenida a todas quienes se inscribieron al Taller de R por y para mujeres, organizado por el Centro de Estudios de Conflicto y Cohesión Social - [COES](www.coes.cl).
+Queremos darle la bienvenida a todas quienes se inscribieron al Taller de R por y para mujeres, organizado por el Centro de Estudios de Conflicto y Cohesión Social - [COES](www.coes.cl). 
 
-
-## Instructoras
-
-Este taller será dictado por
+Este taller será dictado por 
 
 - [Monica Gerber Plüss (Facultad de Psicología-UDP, COES)](mailto:'monica.gerber@udp.cl')
 - [Valentina Andrade de la Horra (FACSO-UChile, LISA-COES)](valentinaandrade.netlify.app)
 
 
-## ¿Quiénes pueden participar?
-
-Esta actividad está pensada para mujeres que quieren iniciarse en el uso de R y RStudio. Por ello aquí aprenderás
+Esta actividad está pensada para quiénes quieren iniciarse en el uso de R y RStudio. Por ello aquí aprenderás
 
 🔹 1. Introducción: ¿qué es R?
 🔹 2. Cargar paquetes, ayuda

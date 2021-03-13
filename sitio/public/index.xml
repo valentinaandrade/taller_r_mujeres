@@ -5,7 +5,8 @@
     <link>/</link>
     <description>Recent content on R por y para mujeres</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Antes de partir</title>
       <link>/instalar-r/</link>
@@ -36,10 +37,20 @@
       
       <guid>/code/</guid>
       <description>Presentación  Puedes hacer click aquí para ver la presentació 👉 Presentación
- ¡Iniciemos nuestra práctica!
-Debes descargar el siguiente zip y guardarlo en alguna carpeta que te acomode. Dentro de este estará todo el material necesario de la sesión. No es necesario que descargues nada más
+ ¡Iniciemos nuestra práctica! Debes descargar el siguiente zip y guardarlo en alguna carpeta que te acomode. Dentro de este estará todo el material necesario de la sesión. No es necesario que descargues nada más
  🔴 Material general del curso aquí
  Códigos del taller De todas formas, si quieres los códigos por separado puedes descargarlos aquí</description>
+    </item>
+    
+    <item>
+      <title>Bievenidas a todas 👩</title>
+      <link>/post/about/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/about/</guid>
+      <description>Bievenidas a todas 👩 Queremos darle la bienvenida a todas quienes se inscribieron al Taller de R por y para mujeres, organizado por el Centro de Estudios de Conflicto y Cohesión Social - COES.
+Este taller será dictado por
+ Monica Gerber Plüss (Facultad de Psicología-UDP, COES) Valentina Andrade de la Horra (FACSO-UChile, LISA-COES)  Esta actividad está pensada para quiénes quieren iniciarse en el uso de R y RStudio. Por ello aquí aprenderás</description>
     </item>
     
     <item>

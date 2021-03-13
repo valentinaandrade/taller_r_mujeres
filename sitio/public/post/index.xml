@@ -6,16 +6,16 @@
     <description>Recent content in Posts on R por y para mujeres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Bievenidas a todas 👩</title>
+      <link>/post/about/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+      <guid>/post/about/</guid>
+      <description>Bievenidas a todas 👩 Queremos darle la bienvenida a todas quienes se inscribieron al Taller de R por y para mujeres, organizado por el Centro de Estudios de Conflicto y Cohesión Social - COES.
+Este taller será dictado por
+ Monica Gerber Plüss (Facultad de Psicología-UDP, COES) Valentina Andrade de la Horra (FACSO-UChile, LISA-COES)  Esta actividad está pensada para quiénes quieren iniciarse en el uso de R y RStudio. Por ello aquí aprenderás</description>
     </item>
     
   </channel>
