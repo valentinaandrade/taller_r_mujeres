@@ -10,7 +10,6 @@
 {{ $container := cond $.Site.Params.FullWidthTheme "container full" (cond $.Site.Params.CenterTheme "container center" "container") }}
 
 <div class="{{- $container -}}{{- cond ($.Site.Params.oneHeadingSize | default true) " headings--one-size" "" }}">
-
   {{ partial "header.html" . }}
 
   <div class="content">

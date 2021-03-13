@@ -12,6 +12,12 @@ paginate = 5
   enableGitInfo = true
   updatedDatePrefix = "Actualizado"
 
+# Preloader
+[params.preloader]
+  enable = true
+  preloader = "img/preloader.gif" # use jpg, png, svg or gif format.
+
+
 [languages]
   [languages.en]
     title = "R por y para mujeres"

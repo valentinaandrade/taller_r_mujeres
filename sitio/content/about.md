@@ -1,6 +1,6 @@
 ---
 author: Monica y Valentina
-cover: img/know-lila.png
+cover: 
 date: "2019-01-25"
 title: Sobre el taller
 ---
