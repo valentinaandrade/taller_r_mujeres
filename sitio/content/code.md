@@ -15,7 +15,7 @@ title: Materiales de la sesión
 
 
 
-# ¡Iniciemos nuestra práctica!
+ ¡Iniciemos nuestra práctica!
 
 Debes descargar el siguiente *zip* y guardarlo en alguna carpeta que te acomode. Dentro de este estará todo el material necesario de la sesión. No es necesario que descargues nada más
 
