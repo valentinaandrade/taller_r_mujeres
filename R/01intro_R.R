@@ -1,9 +1,10 @@
-# Codigo 1: Introduccion a R ----------------------------------------------
+# Código 1: Introducción a R ----------------------------------------------
 ## Cargando y explorando datos
 
-# 0. Orientaciones generale
+# 0. Orientaciones generales
 
 # 0.1 El texto escrito luego de signos gato funciona como información y no como comando
+# Es útil para dejar anotaciones o comentarios
 # 0.2 Encoding: Como solucionar lo de los caracteres "raros".
 
 
@@ -15,8 +16,8 @@
 ## Opción 1 
 setwd("C:/Directorio/taller_r_mujeres")
 
-## Opcion 2
-### "Set Working Directory" --> Control+ Shift+ H
+## Opción 2
+### "Set Working Directory" --> Control + Shift + H
 ### Con esto se abrirá el entorno actual de trabajo y podemos buscar cual queremos dejar
 
 
@@ -32,19 +33,20 @@ install.packages("readxl")
 library(haven)
 library(readxl)
 
-# Ejercicio: ¿Cómo lo harías para summarytools?
+# Ejercicio1: ¿Cómo lo harías para summarytools? Escribe el código y ejecútalo.
+
+
+
 # Pregunta: ¿Para qué sirven estos paquetes? ¿Qué funciones traen?
-## 1. Ir a Packages --> buscar "haven" y apretar
-## 2. Ver funciones y apretar alguna o 
+## 1. Ir a "Packages" en la ventana inferior derecha e RStudio --> buscar "haven" y apretar
+## 2. Revisar información sobre funciones. 
 ?read_sav
 ?read_dta
 
-
-
 # 3. Cargar bases ------------------------------------------------------
-#3.1 En SPSS
+# 3.1 En SPSS
 # Importa los datos en formato SAV usando el paquete haven. Lee los datos desde el archivo "DatosELSOC2.sav"  
-# La base de datos debe estar en la misma carpeta que la definida como directorio de trabajo
+# La base de datos debe estar en la misma carpeta que la definida como directorio de trabajo.
 
 read_sav("DatosELSOC2.sav") # ¿Por qué no lo lee?
 read_sav("input/DatosELSOC2.sav")
@@ -55,36 +57,41 @@ read_sav("input/DatosELSOC2.sav")
 datos <- read_sav("input/DatosELSOC2.sav")
 
 
-#   3.2 RDATA
-#   Carga la base "DatosELSOC2.rdata"
+# 3.2 En RDATA
+# Carga la base "DatosELSOC2.rdata"
 
 load("input/DatosELSOC2.rdata")
 
 # 3.3 En CSV
 
-trampa <- read.csv("input/DatosELSOC2.csv")
+trampa <- read.csv("input/DatosELSOC2.csv") #¡Es una trampa!
 datos <- read.csv("input/DatosELSOC2.csv", sep = ";")
 
 # 3.4 En Excel
-trampa <- read_xlsx("input/DatosELSOC2.xlsx") #¡Es una trampa"
+trampa <- read_xlsx("input/DatosELSOC2.xlsx") #¡Es una trampa!
 datos <- read_xlsx("input/DatosELSOC2.xlsx", skip = 1, sheet = 2)
 ### skip nos permite saltar filas, sheet definir las hojas y range los rangos de las celdas (A1:B40)
 
 
-## Ejercicio: Cargar datos en dta
+## Ejercicio2: Cargar datos en dta
+
+
 
 
 # 4. Limpiar entorno de trabajo -------------------------------------------
-#   Corre el siguiente comando para borrar el objeto "trampa". 
+# Opción 1. Corre el siguiente comando para borrar el objeto "trampa". 
 rm(trampa)
 
-# O la "escoba" en el Global Enviroment
+# Opción 2. Usa la "escoba" en el Global Enviroment para borrar todos los objetos
 
 
 # Explorar datos ----------------------------------------------------------
 
 ## 5.0 Ver los datos ---------------------
-View(datos) #o presionandolos
+# Opción 1
+View(datos) 
+
+#Opción 2. Presiona el objeto que quieres ver en el Global Environment
 
 ## 5.1 Estructura datos ------------------
 dim(datos)
@@ -110,23 +117,30 @@ summary(datos$c08_02)
 summary(datos$c01)
 
 # 5.4 Tabla de frecuencias  -------------
-# Corre los siguientes comandos para obtener tablas de frecuencias y tabla con porcentajes.
+# Ejecuta los siguientes comandos para obtener tablas de frecuencias y tablas con porcentajes.
 # Inspecciona algunas otras variables. Observa que los valores -888 y -999
-# No aparecen definidos como valores perdidos.
+# no aparecen definidos como valores perdidos.
+# Nota: ¡ya veremos formas visualmente más atractivas para generar estas tablas!
 
-#         Obtener tabla con frecuencias
+# Obtener tabla con frecuencias
 
 table(datos$c08_02)
 
-#         Obtener la misma tabla de frecuencia pero con etiquetas de categorías de respuesta
+# Obtener la misma tabla de frecuencia pero con etiquetas de categorías de respuesta
 
 table(as_factor(datos$c08_02))
 
-#         Guarda la tabla de frecuencias como un objeto. Luego solicita que se muestre el contenido
-#         de la tabla con la función "print".
+# Guarda la tabla de frecuencias como un objeto. Luego solicita que se muestre el contenido
+# de la tabla con la función "print".
 
-tabla1 <- table(datos$c08_02)
+tabla1 <- table(as_factor(datos$c08_02))
 
 print(tabla1)
 write.csv(tabla1, "output/tabla1.csv")
 
+# Descriptivos con summarytools
+
+dfSummary(datos)
+view(dfSummary(datos))
+
+# AGREGAR OTRAS FUNCIONES DE SUMMARYTOOLS PARA DESCRIPTIVOS UNIVARIADOS

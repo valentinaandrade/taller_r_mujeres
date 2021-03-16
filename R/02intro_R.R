@@ -1,9 +1,9 @@
-# Codigo 2: Introduccion a R ----------------------------------------------
+# Código 2: Introducción a R ----------------------------------------------
 # Manipulando y analizando datos ------------------------------------------
 
 rm(list=ls())       # borrar todos los objetos en el espacio de trabajo
 
-# 1. Cargar librerias -----------------------------------------------------
+# 1. Cargar librerías -----------------------------------------------------
 ## ¿Debemos instalarlas?
 ## Ocuparemos dplyr (tidyverse), car y sjPlot
 install.packages("tidyverse") 
@@ -30,7 +30,7 @@ sjmisc::find_var(data = datos, "sexo")
 frq(datos$m0_sexo)
 
 
-# 4. Manipulacion ------------------------------------------------------------
+# 4. Manipulación ------------------------------------------------------------
 
 # 4.1 Recodificar y etiquetar (recode) ---------------------------------------------------------
 
@@ -38,19 +38,21 @@ datos$justo <- recode(datos$d04_02, "c(-888,-999)=NA")
 
 frq(datos$justo)
 
-## Ejercicio: Ahora realizalo con la variable c18_11 para crear la variable ingreso
+## Ejercicio 1: Ahora realízalo con la variable c18_11. Guarda el resultado con el nombre "ingreso" 
+
+
 
 ## Pregunta: ¿Qué pasa si no cambio el nombre de la columna?
 
 # 4.2 Transformar variables -------------------------
-### Nuestra guia maxima sera mutate de dplyr
+### Nuestra guía maxima sera mutate de dplyr
 
-## Colapsar categorias
+## Colapsar categorías
 
 datos$ingreso <- as.numeric(datos$ingreso)
 datos <- mutate(datos, d_ingreso = if_else(ingreso %in% c(5,4), 1, 0))
 frq(datos$d_ingreso)
-## ¿Que paso con NA?
+## ¿Que pasó con NA?
 
 datos <- mutate(datos, d_ingreso = 
                   if_else(ingreso %in% c(5,4), 1,
@@ -65,8 +67,7 @@ datos <- mutate(datos, e_justo = justo/100000)
 descr(datos$e_justo)
 descr(datos$justo)
 
-## Ejercicio: transformen la variable justo en el logaritmo de justo y construyan categorías de edad
-
+## Ejercicio 2: transforma la variable justo en el logaritmo de justo y construye categorías de edad
 ### Hint: Operadores logicos (|, &, <, >, ==, !=, %in%)
 
 datos <- mutate(datos, c_edad = case_when(m0_edad >= 18 & m0_edad<=39 ~ "Joven",
@@ -90,7 +91,7 @@ datos_proc <- datos %>%
   select(e_justo, justo, d_ingreso, m0_sexo)
 
 
-# 5. Analisis de datos ----------------------------------------------------
+# 5. Análisis de datos ----------------------------------------------------
 
 # 5.1 Tablas contingencia -------------------------------------------------
 summarytools::ctable(datos_proc$d_ingreso, datos_proc$m0_sexo)
@@ -101,7 +102,7 @@ summarytools::ctable(datos_proc$d_ingreso, datos_proc$m0_sexo,
                      chisq = T,
                      OR = T)
 
-# 5.2 Regresion ---------------------------------------------------------------
+# 5.2 Regresión ---------------------------------------------------------------
 
 lm(justo ~ d_ingreso + m0_sexo, data = datos_proc)
 
