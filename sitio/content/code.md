@@ -7,10 +7,10 @@ title: Materiales de la sesión
 # Presentación
 
 
-> Puedes hacer click aquí para ver la presentació 👉 [Presentación](https://taller-r-mujeres-coes.netlify.app/coes-2021---taller-de-r#1) 
+> Puedes hacer click aquí para ver la presentación 👉 [Presentación](https://taller-r-mujeres-coes.netlify.app/coes_tallerR_2021#1)
 
 <center>
-<iframe src="https://taller-r-mujeres-coes.netlify.app/coes-2021---taller-de-r#1" height="500" width=100% allowfullscreen="true"></iframe>
+<iframe src="https://taller-r-mujeres-coes.netlify.app/coes_tallerR_2021#1" height="500" width=100% allowfullscreen="true"></iframe>
 </center>
 
 
@@ -18,14 +18,14 @@ title: Materiales de la sesión
 
 Debes descargar el siguiente *zip* y guardarlo en alguna carpeta que te acomode. Dentro de este estará todo el material necesario de la sesión. No es necesario que descargues nada más
 
-> 🔴 Material general del curso [aquí]("https://taller-r-mujeres-coes.netlify.app/taller-r-mujeres.zip") 
+> 🔴 Material general del curso [aquí]("https://taller-r-mujeres-coes.netlify.app/taller_r_mujeres.zip")
 
 # Códigos del taller
 
 De todas formas, si quieres los códigos por separado puedes descargarlos aquí
 
-> 🔴 Primera parte [aquí]("https://taller-r-mujeres-coes.netlify.app/01intro-R.R") 
+> 🔴 Primera parte [aquí]("https://taller-r-mujeres-coes.netlify.app/01intro-R.R")
 
-> 🔴 Segunda parte [aquí]("https://taller-r-mujeres-coes.netlify.app/02intro_R.R") 
+> 🔴 Segunda parte [aquí]("https://taller-r-mujeres-coes.netlify.app/02intro_R.R")
 
-
+> 🔴 Base de datos [aquí]("https://taller-r-mujeres-coes.netlify.app/DatosELSOC2.sav")
