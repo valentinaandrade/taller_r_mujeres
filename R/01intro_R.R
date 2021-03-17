@@ -142,5 +142,5 @@ write.csv(tabla1, "output/tabla1.csv")
 
 dfSummary(datos)
 view(dfSummary(datos))
+view(dfSummary(datos), file="output/descriptivos.html")
 
-# AGREGAR OTRAS FUNCIONES DE SUMMARYTOOLS PARA DESCRIPTIVOS UNIVARIADOS
