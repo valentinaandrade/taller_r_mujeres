@@ -5,4 +5,4 @@ date: "2021-03-19"
 title: Material de interés
 ---
 
-- Agregar material de interes
+¡ Pronto tendremos más talleres y links de interés para quiénes quieran seguir aprendiendo R!
