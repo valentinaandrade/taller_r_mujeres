@@ -5,14 +5,40 @@ institute: 'Centro de Estudios de Conflicto y Cohesión Social (COES)'
 date: '18 de marzo 2021'
 output:
   xaringan::moon_reader:
-    css: [default, svm-xaringan-style.css]
+    css: [default, hygge-duke, svm-xaringan-style.css]
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
 ---
+# Taller de R para mujeres
 
+Esta actividad...
+
+- Se enmarca en la conmemoración del **Día Internacional de la Mujer Trabajadora #8M**
+
+- Ha sido impulsada por la **agenda de género** de COES
+
+- Es coordinada en conjunto con el **equipo de comunicaciones** y las **asistentes de investigación** de COES
+
+- Se realiza por tercer año consecutivo
+
+
+---
+# Taller de R para mujeres
+## Docentes
+
+<br>
+.center[
+.content-box-green[Monica Gerber]  .content-box-grey[monica.gerber@udp.cl] <br><br>
+.content-box-purple[Facultad de Psicología] .content-box-blue[Universidad Diego Portales]
+<br><br><br><br>
+.content-box-blue[Valentina Andrade]  .content-box-purple[valentinaandrade@uchile.cl] <br><br>
+.content-box-grey[Escuela de Sociología] .content-box-green[Universidad de Chile]]
+
+
+---
 # Programa
 ## Contenidos
 
