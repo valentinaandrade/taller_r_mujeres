@@ -1,6 +1,6 @@
 ---
 author: Monica y Valentina
-cover: 
+cover:
 date: "2019-01-25"
 title: Sobre el taller
 ---
@@ -12,7 +12,7 @@ Queremos darle la bienvenida a todas quienes se inscribieron al Taller de R por 
 Este taller será dictado por
 
 - [Monica Gerber Plüss (Facultad de Psicología-UDP, COES)](mailto:'monica.gerber@udp.cl')
-- [Valentina Andrade de la Horra (FACSO-UChile, LISA-COES)](valentinaandrade.netlify.app)
+- [Valentina Andrade de la Horra (FACSO-UChile, LISA-COES)](https://valentinaandrade.netlify.app/)
 
 
 Esta actividad está pensada para quiénes quieren iniciarse en el uso de R y RStudio. Por ello aquí aprenderás
