@@ -7,7 +7,7 @@ title: Materiales de la sesión
 # Presentación
 
 
-> 📊Puedes hacer click aquí para ver la presentación 👉 [Presentación](https://taller-r-mujeres-coes.netlify.app/2022/taller_r_mujeres_2022#1)
+> 📊Puedes hacer click aquí para ver la presentación 👉 [Presentación](https://taller-r-mujeres-coes.netlify.app/2022/taller_r_mujeres_2022.html#1)
 
 # ¡Iniciemos nuestra práctica!
 
