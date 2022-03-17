@@ -1,7 +1,7 @@
 ---
 author: Valentina y Monica
 cover: 
-date: "2021-03-18"
+date: "2022-03-18"
 title: Antes de partir
 description: ¿Cómo instalar R? ¿Qué es RStudio Cloud?
 
