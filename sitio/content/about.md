@@ -1,7 +1,6 @@
 ---
 author: Monica y Valentina
 cover:
-date: "2022-03-16"
 title: Sobre el taller
 ---
 

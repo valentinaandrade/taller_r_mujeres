@@ -31,17 +31,6 @@ Este taller será dictado por
     </item>
     
     <item>
-      <title>Sobre el taller</title>
-      <link>https://example.com/about/</link>
-      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/about/</guid>
-      <description>Bievenidas a todas 👩 Queremos darle la bienvenida a todas quienes se inscribieron al Taller de R por y para mujeres, organizado por el Centro de Estudios de Conflicto y Cohesión Social - COES.
-Este taller será dictado por:
- Monica Gerber Plüss (Facultad de Psicología-UDP, COES) Valentina Andrade de la Horra (COES, estudiante Magíster Instituto Economía UC)  Esta actividad está pensada para quiénes quieren iniciarse en el uso de R y RStudio.</description>
-    </item>
-    
-    <item>
       <title>Material de interés</title>
       <link>https://example.com/search/</link>
       <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
@@ -51,6 +40,17 @@ Este taller será dictado por:
   Rladies Santiago
   Learn-R
   </description>
+    </item>
+    
+    <item>
+      <title>Sobre el taller</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      <description>Bievenidas a todas 👩 Queremos darle la bienvenida a todas quienes se inscribieron al Taller de R por y para mujeres, organizado por el Centro de Estudios de Conflicto y Cohesión Social - COES.
+Este taller será dictado por:
+ Monica Gerber Plüss (Facultad de Psicología-UDP, COES) Valentina Andrade de la Horra (COES, estudiante Magíster Instituto Economía UC)  Esta actividad está pensada para quiénes quieren iniciarse en el uso de R y RStudio.</description>
     </item>
     
   </channel>
