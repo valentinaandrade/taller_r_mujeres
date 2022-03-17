@@ -18,9 +18,13 @@ Este taller será dictado por
 Esta actividad está pensada para mujeres que quieren iniciarse en el uso de R y RStudio. Por ello aquí aprenderás
 
 🔹 1. Introducción: ¿qué es R?
+
 🔹 2. Cargar paquetes, ayuda
+
 🔹 3. Cargar y explorar base
+
 🔹 4. Manipulación de datos
+
 🔹 5. Introducción al análisis de datos
 
 Por lo tanto, este curso no es un curso avanzado. Pero esperamos pronto poder realizar uno sobre otras temáticas y nuevos desafíos 🙂
