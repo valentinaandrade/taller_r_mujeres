@@ -9,7 +9,7 @@ title: Sobre el taller
 
 Queremos darle la bienvenida a todas quienes se inscribieron al Taller de R por y para mujeres, organizado por el Centro de Estudios de Conflicto y Cohesión Social - [COES](www.coes.cl).
 
-Este taller será dictado por
+Este taller será dictado por:
 
 - [Monica Gerber Plüss (Facultad de Psicología-UDP, COES)](mailto:'monica.gerber@udp.cl')
 - [Valentina Andrade de la Horra (COES, estudiante Magíster Instituto Economía UC)](https://valentinaandrade.netlify.app/)
