@@ -1,0 +1,57 @@
+<style type="text/css">
+  
+  body{ /* Normal  */
+      font-size: 12px;
+  }
+td {  /* Table  */
+    font-size: 12px;
+}
+h1 { /* Header 1 */
+    font-size: 30px;
+  color: Black;
+}
+h2 { /* Header 2 */
+    font-size: 30px;
+
+}
+h3 { /* Header 3 */
+    font-size: 18px;
+
+}
+code.r{ /* Code block */
+    font-size: 10px;
+}
+pre { /* Code block */
+    font-size: 12px
+}
+.midcenter {
+    position: fixed;
+    top: 10%;
+    left: 25%;
+}
+
+.leftblock {
+  position: fixed;
+  top: 20%;
+  left: 15%;
+}
+
+.rightblock {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+}
+.title-slide hgroup h1 {
+  font-size: 38px;
+  letter-spacing: 0;
+}    
+.title-slide hgroup h2 {
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 1.15;
+}    
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

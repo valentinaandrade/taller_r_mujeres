@@ -2,66 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R por y para mujeres</title>
-    <link>/</link>
+    <link>https://example.com/</link>
     <description>Recent content on R por y para mujeres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Material de interés</title>
-      <link>/search/</link>
-      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      <title>Bievenidas a todas 👩 - Taller de R por y para mujeres</title>
+      <link>https://example.com/post/about/</link>
+      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>/search/</guid>
-      <description>¡ Pronto tendremos más talleres y links de interés para quiénes quieran seguir aprendiendo R!</description>
-    </item>
-    
-    <item>
-      <title>Antes de partir</title>
-      <link>/instalar-r/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/instalar-r/</guid>
-      <description>Instalar R y RStudio 💻 A continuación les dejamos un video sobre como instalar R y RStudio, softwares que son necesarios para participar en la actividad
-  Instalar R
-  Instalar RStudio
-  Tutorial de instalación Agradecemos a Julio Iturra por facilitar el material
-  RStudio Cloud 💻🌥 RStudio Cloud es una plataforma que permite utilizar R en una nube (cloud computing).
-  Tutorial de RStudio Cloud por Valentina Andrade</description>
+      <guid>https://example.com/post/about/</guid>
+      <description>Bievenidas a todas 👩 Queremos darle la bienvenida a todas quienes se inscribieron al Taller de R por y para mujeres, organizado por el Centro de Estudios de Conflicto y Cohesión Social - COES.
+Este taller será dictado por
+ Monica Gerber Plüss (Facultad de Psicología-UDP, COES) Valentina Andrade de la Horra (FACSO-UChile, LISA-COES)  Esta actividad está pensada para quiénes quieren iniciarse en el uso de R y RStudio. Por ello aquí aprenderás</description>
     </item>
     
     <item>
       <title>Materiales de la sesión</title>
-      <link>/code/</link>
-      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://example.com/code/</link>
+      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>/code/</guid>
+      <guid>https://example.com/code/</guid>
       <description>Presentación  📊Puedes hacer click aquí para ver la presentación 👉 Presentación
  ¡Iniciemos nuestra práctica! Debes descargar el siguiente zip y guardarlo en alguna carpeta que te acomode. Dentro de este estará todo el material necesario de la sesión. No es necesario que descargues nada más
  📌📚 Material general del curso aquí
- Códigos del taller De todas formas, si quieres los códigos por separado puedes descargarlos aquí</description>
-    </item>
-    
-    <item>
-      <title>Bievenidas a todas 👩 - Taller de R por y para mujeres</title>
-      <link>/post/about/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/about/</guid>
-      <description>Bievenidas a todas 👩 Queremos darle la bienvenida a todas quienes se inscribieron al Taller de R por y para mujeres, organizado por el Centro de Estudios de Conflicto y Cohesión Social - COES.
-Este taller será dictado por
- Monica Gerber Plüss (Facultad de Psicología-UDP, COES) Valentina Andrade de la Horra (FACSO-UChile, LISA-COES)  Esta actividad está pensada para quiénes quieren iniciarse en el uso de R y RStudio. Por ello aquí aprenderás</description>
+ Acceso a RStudio Cloud Te recomendamos esta opción&amp;hellip; Puedes hacer el taller desde RStudio Cloud, que s una versión online del software.</description>
     </item>
     
     <item>
       <title>Sobre el taller</title>
-      <link>/about/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      <link>https://example.com/about/</link>
+      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://example.com/about/</guid>
       <description>Bievenidas a todas 👩 Queremos darle la bienvenida a todas quienes se inscribieron al Taller de R por y para mujeres, organizado por el Centro de Estudios de Conflicto y Cohesión Social - COES.
 Este taller será dictado por
- Monica Gerber Plüss (Facultad de Psicología-UDP, COES) Valentina Andrade de la Horra (FACSO-UChile, LISA-COES)  Esta actividad está pensada para quiénes quieren iniciarse en el uso de R y RStudio. Por ello aquí aprenderás</description>
+ Monica Gerber Plüss (Facultad de Psicología-UDP, COES) Valentina Andrade de la Horra (COES, estudiante Magíster Instituto Economía UC)  Esta actividad está pensada para quiénes quieren iniciarse en el uso de R y RStudio.</description>
+    </item>
+    
+    <item>
+      <title>Material de interés</title>
+      <link>https://example.com/search/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/search/</guid>
+      <description>Links de interés   Centro de Estudios de Conflicto y Cohesión Social &amp;hellip; ¡ellas/os siempre hacen muy buenas actividades!
+  Rladies Santiago
+  Learn-R
+  </description>
     </item>
     
   </channel>

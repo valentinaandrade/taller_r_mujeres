@@ -3,46 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/search/</loc>
+    <loc>https://example.com/post/about/</loc>
+    <lastmod>2022-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/code/</loc>
+    <lastmod>2022-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2022-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2022-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2022-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/search/</loc>
     <lastmod>2021-03-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/instalar-r/</loc>
-    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
+    <loc>https://example.com/categories/</loc>
   </url>
   
   <url>
-    <loc>/code/</loc>
-    <lastmod>2021-03-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/about/</loc>
-    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
+    <loc>https://example.com/tags/</loc>
   </url>
   
 </urlset>
